@@ -13,6 +13,10 @@ public class BasicTest {
    */
   public static Option<Integer> power(Integer i, Integer n)
   {
+    if(n==0)
+    {
+      return Option.of(1);
+    }
     if(n%2==0)
     {
       Option<Integer> r=power(i,n/2);
