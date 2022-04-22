@@ -18,7 +18,8 @@ class CollectionTest {
   {
     double y=0;
     List<Double> listY=new ArrayList<>();
-    for (Integer i:input) {
+    for (Integer i:input)
+    {
       y=Math.pow((i*2)+3,5);
       listY.add(y);
     }
@@ -31,7 +32,8 @@ class CollectionTest {
   public static List<String> compute2(List<String> input)
   {
     List<String> result =new ArrayList<>();
-    for (String s:input) {
+    for (String s:input)
+    {
       String first=s.substring(0,0);
       String rest=s.substring(1);
       first.toUpperCase();
